@@ -1,0 +1,54 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+
+	nav{
+		height: 60px;
+		line-height: 60px;
+		position: fixed;
+	}
+	.logo {
+		padding-top: 10px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+	.menu_btn span{
+		top: -18px;
+	}	
+	#top_menu{
+		background-color: #ff0000;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+
+}
+
+

@@ -1,0 +1,41 @@
+body{
+    background: white;
+}
+a{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+a:hover{
+    background-color: #ccc;
+    color: black;
+}
+.h1{
+    font-size: 45px;
+    color:green;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: pink;
+    padding-left: 30px 20px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+img{
+    height: 250px;
+    font-weight: 250px;
+}
+p{
+    line-height: 20;
+}
+input{
+    border:solid 1px #ff0000;
+}
+table{
+    border: solid 1px blue;
+}
+td{
+    border: dashed 1px  green;
+}
